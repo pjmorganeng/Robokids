@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboKid | Meet Rocky</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Rounded MT Bold', sans-serif;
+      background: #eaf6ff;
+      color: #003366;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      background-color: #0099ff;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #0077cc;
+    }
+    .hero-img {
+      width: 280px;
+      margin: 1rem auto;
+    }
+    section {
+      padding: 3rem 1rem;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .feature {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #003366;
+      color: white;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hii! I'm Rocky</h1>
+    <p>Your safety co-pilot in motion. I help kids move safely and confidently with smart sensors and vision technology built into the RoboKid exoskeleton.</p>
+    <img src="/rocky.png" alt="Rocky the Robot" class="hero-img">
+    <a class="btn" href="#learn">LEARN MORE</a>
+  </header>  <section id="learn">
+    <h2>Mobility for all, starting in childhood</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>👁️ Rocky Sees</h3>
+        <p>Using machine vision, Rocky detects bumps, stairs, and slippery spots to help keep kids upright and confident.</p>
+      </div>
+      <div class="feature">
+        <h3>🧠 Rocky Thinks</h3>
+        <p>Rocky's AI brain adapts to your child’s walking pattern, balance needs, and even mood—learning to support their freedom.</p>
+      </div>
+      <div class="feature">
+        <h3>🛡️ Rocky Protects</h3>
+        <p>Sensors constantly scan for imbalance, helping Rocky react faster than a blink to stop falls and guide safe movement.</p>
+      </div>
+    </div>
+  </section>  <footer>
+    <p>© 2025 RoboKid.ca — Powered by purpose,
