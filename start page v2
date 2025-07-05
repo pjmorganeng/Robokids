@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RoboKid - Meet Rocky the AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-white text-gray-800">
+
+  <header class="text-center py-10">
+    <h1 class="text-5xl font-bold">🤖 Meet Rocky</h1>
+    <p class="text-lg mt-2">The AI-powered buddy inside the RoboKid Exoskeleton</p>
+  </header>
+
+  <section class="max-w-4xl mx-auto px-4 py-8">
+    <img src="rocky.png" alt="Rocky the Robot" class="mx-auto w-64 rounded-full shadow-lg mb-6">
+    <h2 class="text-3xl font-semibold text-center mb-4">Helping Kids Walk, Run & Explore Safely</h2>
+    <p class="text-lg text-center">Rocky uses sensors, cameras, and friendly AI to keep kids balanced, safe, and smiling. Our exoskeleton grows with your child – from early steps to adult strides.</p>
+  </section>
+
+  <section class="bg-white py-10 text-center">
+    <h3 class="text-2xl font-bold mb-2">Why RoboKid?</h3>
+    <ul class="text-lg space-y-2">
+      <li>✅ Lightweight and adaptable frame</li>
+      <li>✅ Built-in AI safety alerts</li>
+      <li>✅ Arduino & ESP32 open-source controls</li>
+      <li>✅ Designed for fun, freedom, and future potential</li>
+    </ul>
+  </section>
+
+  <section class="py-10 bg-blue-50 text-center">
+    <h3 class="text-2xl font-bold mb-4">Help Us Build It Faster</h3>
+    <p class="mb-6">Funds from Zinzino sales and donations go directly to development.</p>
+    <a href="https://your-zinzino-link.com" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+      Support with Zinzino
+    </a>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-gray-500">
+    &copy; 2025 RoboKid.ca • Built with ❤️ for mobility and inclusion
+  </footer>
+
+</body>
+</html>
